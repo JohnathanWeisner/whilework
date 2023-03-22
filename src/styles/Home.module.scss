@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex: 1;
+}
+
+.answers {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  .answerLabel {
+  }
+}
